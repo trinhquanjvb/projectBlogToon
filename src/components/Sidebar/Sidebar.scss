@@ -1,0 +1,7 @@
+.siderBar {
+   position: fixed;
+   left: 0;
+   top: var(--height-navigate);
+   bottom: 0;
+   right: calc(100vw - var(--width-sidebar));
+}

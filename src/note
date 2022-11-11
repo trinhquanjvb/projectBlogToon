@@ -1,0 +1,32 @@
+// const [datas, setDatas] = useState([])
+   // useEffect(() => {
+   //    const fetchData = async () => {
+   //       fetch('http://localhost:3001/posts')
+   //          .then((res) => res.json())
+   //          .then((result) => setDatas(result))
+   //    }
+   //    fetchData()
+   //       .catch((res) => res)
+   //       .finally('done')
+   // }, [])
+
+   {/* {datas.map((data, i) => {
+            return (
+               <>
+                  <div dangerouslySetInnerHTML={{ __html: data.heading }} />
+                  <div dangerouslySetInnerHTML={{ __html: data.time }} />
+                  <div dangerouslySetInnerHTML={{ __html: data.avatar }} />
+                  <div dangerouslySetInnerHTML={{ __html: data.title }} />
+                  <div dangerouslySetInnerHTML={{ __html: data.position }} />
+                  <div dangerouslySetInnerHTML={{ __html: data.image }} />
+                  <div dangerouslySetInnerHTML={{ __html: data.content }} />
+                  <div dangerouslySetInnerHTML={{ __html: data.button }} />
+                  <div dangerouslySetInnerHTML={{ __html: data.more }} />
+                  <div
+                     dangerouslySetInnerHTML={{
+                        __html: data.buttons.map((element, i) => element),
+                     }}
+                  />
+               </>
+            )
+         })} */}

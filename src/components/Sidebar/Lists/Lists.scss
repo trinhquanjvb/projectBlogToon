@@ -1,0 +1,20 @@
+.list {
+   display: flex;
+   padding-top: 40px;
+
+}
+
+.list__wrap--heading {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.list_hide {
+   flex: 1;
+}
+
+.list__wrap {
+   width: 250px;
+}
+
+.list__wrap--item {}

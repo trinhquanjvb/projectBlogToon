@@ -1,0 +1,10 @@
+.content {
+   // height: 2000px;
+   position: relative;
+   bottom: 0;
+   top: 0;
+   left: var(--width-sidebar);
+   right: 0;
+   width: calc(73vw - 17px);
+   padding-top: 40px;
+}
