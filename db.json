@@ -1,113 +1,113 @@
 {
    "posts": [{
          "heading": "<h1 class='topic__heading'>Synchron combo - Yu-Gi-Oh Master Duel</h1>",
-         "time": "<span class=''>June 26, 2022 · 5 min read</span>",
+         "time": "<div class='topic__time'>June 26, 2022 · 5 min read</div>",
          "avatar": "<img src=\"https://doko.clip-sub.com/img/avatar_doraemon.jpg\" />",
-         "title": "<div class=''>Doko</div>",
+         "title": "<div class='content__title'>Doko</div>",
          "position": "<div class=''>Adminnitrator</div>",
          "image": "<img src=\"https://doko.clip-sub.com/assets/images/shooting-majestic-star-dragon-78890b4e5620574261b0e92d21b23a08.png\" />",
-         "content": "<p class=''>Recently I got back into Yu-Gi-Oh, a popular card game that I used to play when I was a teenager. Synchron is one of my favorite decks, along with Cyber Dragon and Madolche. This post is where I note down my regular combo with Synchron deck (after Dawn of Majesty booster pack).</p>",
-         "buttons": ["<button class=''>gaming</button>", "<button class=''>english</button>", "<button class=''>yugioh</button>", "<button class=''>synchron</button>"],
-         "more": "<p class=''>Read More</p>"
+         "content": "<p class='detail__content'>Recently I got back into Yu-Gi-Oh, a popular card game that I used to play when I was a teenager. Synchron is one of my favorite decks, along with Cyber Dragon and Madolche. This post is where I note down my regular combo with Synchron deck (after Dawn of Majesty booster pack).</p>",
+         "buttons": ["<button class='btn'>gaming</button>", "<button class='btn'>english</button>", "<button class='btn'>yugioh</button>", "<button class='btn'>synchron</button>"],
+         "more": "<p class='detail__more'>Read More</p>"
       },
       {
          "heading": "<h1 class='topic__heading'>Thể ていない</h1>",
-         "time": "<span class=''>May 3, 2022 · One min read</span>",
+         "time": "<div class='topic__time'>May 3, 2022 · One min read</div>",
          "avatar": "<img src=\"https://doko.clip-sub.com/img/avatar_doraemon.jpg\" />",
-         "title": "<div class=''>Doko</div>",
+         "title": "<div class='content__title'>Doko</div>",
          "position": "<div class=''>Adminnitrator</div>",
-         "image": "<img src=\"https://doko.clip-sub.com/assets/images/shooting-majestic-star-dragon-78890b4e5620574261b0e92d21b23a08.png\" />",
-         "content": "<p class=''>Thể ていない có thể được rút gọn lại (bỏ い sau て). Nói cách khác: Có thể lược bỏ chữ いtrong thể Vて[い]る</p>",
-         "buttons": ["<button class=''>japanese</button>", "<button class=''>grammar</button>"],
-         "more": "<p class=''>Read More</p>"
+         "image": "",
+         "content": "<p class='detail__content'>Thể ていない có thể được rút gọn lại (bỏ い sau て). Nói cách khác: Có thể lược bỏ chữ いtrong thể Vて[い]る</p>",
+         "buttons": ["<button class='btn'>japanese</button>", "<button class='btn'>grammar</button>"],
+         "more": "<p class='detail__more'>Read More</p>"
       },
       {
          "heading": "<h1 class='topic__heading'>Solidity self-notes</h1>",
-         "time": "<span class=''>May 3, 2022 · One min read</span>",
+         "time": "<div class='topic__time'>May 3, 2022 · One min read</div>",
          "avatar": "<img src=\"https://doko.clip-sub.com/img/avatar_doraemon.jpg\" />",
-         "title": "<div class=''>Doko</div>",
+         "title": "<div class='content__title'>Doko</div>",
          "position": "<div class=''>Adminnitrator</div>",
          "image": "",
-         "content": "<p class=''>Trong solidity, các hàm trong interface luôn phải có từ khoá external: // SPDX-License-Identifier: Apache-2.0 pragma solidity 0.8.4; import \"./Library.sol\"; interface IAccountVault { function deposit(address account, uint256 amount) external; function withdraw(address account, uint256 amount) external; } cũng có thể có thêm view: function deposit(address account, uint256 amount) external; nhưng không có internal: // Sẽ bị compiler báo lỗi function deposit(address account, uint256 amount) internal;</p>",
-         "buttons": ["<button class=''>programming</button>", "<button class=''>english</button>"],
-         "more": "<p class=''>Read More</p>"
+         "content": "<p class='detail__content'>Trong solidity, các hàm trong interface luôn phải có từ khoá external: // SPDX-License-Identifier: Apache-2.0 pragma solidity 0.8.4; import \"./Library.sol\"; interface IAccountVault { function deposit(address account, uint256 amount) external; function withdraw(address account, uint256 amount) external; } cũng có thể có thêm view: function deposit(address account, uint256 amount) external; nhưng không có internal: // Sẽ bị compiler báo lỗi function deposit(address account, uint256 amount) internal;</p>",
+         "buttons": ["<button class='btn'>programming</button>", "<button class='btn'>english</button>"],
+         "more": "<p class='detail__more'>Read More</p>"
       },
       {
          "heading": "<h1 class='topic__heading'>Rusty Diary (03)</h1>",
-         "time": "<span class=''>November 18, 2021 · One min read</span>",
+         "time": "<div class='topic__time'>November 18, 2021 · One min read</div>",
          "avatar": "<img src=\"https://doko.clip-sub.com/img/avatar_doraemon.jpg\" />",
-         "title": "<div class=''>Doko</div>",
+         "title": "<div class='content__title'>Doko</div>",
          "position": "<div class=''>Adminnitrator</div>",
          "image": "<img src=\"https://doko.clip-sub.com/assets/images/rulu-rusty-df85338f23bffd7e8b2ccbd534e4107a.jpg\" />",
-         "content": "<p class=''>Rusty diary, part 3 Enum sẽ bị giới hạn bởi số cận trên lớn hơn enum Foo{ A(u64), B([u64; 1000]), }</p>",
-         "buttons": ["<button class=''>vietnamese</button>", "<button class=''>rust</button>"],
-         "more": "<p class=''>Read More</p>"
+         "content": "<p class='detail__content'>Rusty diary, part 3 Enum sẽ bị giới hạn bởi số cận trên lớn hơn enum Foo{ A(u64), B([u64; 1000]), }</p>",
+         "buttons": ["<button class='btn'>vietnamese</button>", "<button class='btn'>rust</button>"],
+         "more": "<p class='detail__more'>Read More</p>"
       },
       {
          "heading": "<h1 class='topic__heading'>Games that are cleared from my backlog (so far) in 2011</h1>",
-         "time": "<span class=''>October 31, 2021 · One min read</span>",
+         "time": "<div class='topic__time'>October 31, 2021 · One min read</div>",
          "avatar": "<img src=\"https://doko.clip-sub.com/img/avatar_doraemon.jpg\" />",
-         "title": "<div class=''>Doko</div>",
+         "title": "<div class='content__title'>Doko</div>",
          "position": "<div class=''>Adminnitrator</div>",
          "image": "",
-         "content": "<p class=''>The list short, but decent, by my standard: The Evil Within (Bethesda) The Evil Within (Bethesda) Dead Space (EA) Utawarerumono Prelude to the Fallen (Aquaplus) Gears 5 (Microsoft) Age of Empires (Microsoft) Metro 2033 Redux (4A) Resident Evil 3 Remake (Capcom) Dishonored (yes, the first one), feelsbadman Yakuza 0</p>",
-         "buttons": ["<button class=''>gaming</button>", "<button class=''>english</button>"],
-         "more": "<p class=''>Read More</p>"
+         "content": "<p class='detail__content'>The list short, but decent, by my standard: The Evil Within (Bethesda) The Evil Within (Bethesda) Dead Space (EA) Utawarerumono Prelude to the Fallen (Aquaplus) Gears 5 (Microsoft) Age of Empires (Microsoft) Metro 2033 Redux (4A) Resident Evil 3 Remake (Capcom) Dishonored (yes, the first one), feelsbadman Yakuza 0</p>",
+         "buttons": ["<button class='btn'>gaming</button>", "<button class='btn'>english</button>"],
+         "more": "<p class='detail__more'>Read More</p>"
       },
       {
          "heading": "<h1 class='topic__heading'>React Native Shake 4 released</h1>",
-         "time": "<span class=''>May 15, 2021 · One min read</span>",
+         "time": "<div class='topic__time'>May 15, 2021 · One min read</div>",
          "avatar": "<img src=\"https://doko.clip-sub.com/img/avatar_doraemon.jpg\" />",
-         "title": "<div class=''>Doko</div>",
+         "title": "<div class='content__title'>Doko</div>",
          "position": "<div class=''>Adminnitrator</div>",
          "image": "",
-         "content": "<p class=''>It's been a while, but I can finally come back to this project. With this new version, we have: Fully typed code with TypeScript. Rewritten iOS module. It now works on both Debug and Release mode. Shorter API. It's now just: RNShake.addListener(() => { // Your code... });</p>",
-         "buttons": ["<button class=''>progamming</button>", "<button class=''>react</button>", "<button class=''>react-native</button>", "<button class=''>ios</button>", "<button class=''>android</button>", "<button class=''>english</button>"],
-         "more": "<p class=''>Read More</p>"
+         "content": "<p class='detail__content'>It's been a while, but I can finally come back to this project. With this new version, we have: Fully typed code with TypeScript. Rewritten iOS module. It now works on both Debug and Release mode. Shorter API. It's now just: RNShake.addListener(() => { // Your code... });</p>",
+         "buttons": ["<button class='btn'>progamming</button>", "<button class='btn'>react</button>", "<button class='btn'>react-native</button>", "<button class='btn'>ios</button>", "<button class='btn'>android</button>", "<button class='btn'>english</button>"],
+         "more": "<p class='detail__more'>Read More</p>"
       },
       {
          "heading": "<h1 class='topic__heading'>Thuật toán Jarvis để tính Convex Hull</h1>",
-         "time": "<span class=''>April 17, 2021 · 5 min read</span>",
+         "time": "<div class='topic__time'>April 17, 2021 · 5 min read</div>",
          "avatar": "<img src=\"https://doko.clip-sub.com/img/avatar_doraemon.jpg\" />",
-         "title": "<div class=''>Doko</div>",
+         "title": "<div class='content__title'>Doko</div>",
          "position": "<div class=''>Adminnitrator</div>",
          "image": "",
-         "content": "<p class=''>Ref 1 - Ref 2 Gần đây khi làm việc với Aegisub và các công cụ karaoke, tôi nhận thấy việc tạo ra các hiệu ứng phức tạp liên quan đến hình học không đơn giản. Ví dụ nếu muốn tạo hiệu ứng vỡ chữ sang các mảnh tam giác, ta cần đến thuật toán Jarviss hoặc Graham và Delauney. Trong đó: Jarviss hoặc Graham: Dùng để tìm ra convex hull - bao lồi - là hình bao ngoài chứa tất cả các điểm đầu vào. Delauney: Thuật toán chia convex hull thành các mảnh tam giác sao cho không có tam giác nào chồng lên nhau.</p>",
-         "buttons": ["<button class=''>vietnamese</button>", "<button class=''>programming</button>"],
-         "more": "<p class=''>matheatics</p>>"
+         "content": "<p class='detail__content'>Ref 1 - Ref 2 Gần đây khi làm việc với Aegisub và các công cụ karaoke, tôi nhận thấy việc tạo ra các hiệu ứng phức tạp liên quan đến hình học không đơn giản. Ví dụ nếu muốn tạo hiệu ứng vỡ chữ sang các mảnh tam giác, ta cần đến thuật toán Jarviss hoặc Graham và Delauney. Trong đó: Jarviss hoặc Graham: Dùng để tìm ra convex hull - bao lồi - là hình bao ngoài chứa tất cả các điểm đầu vào. Delauney: Thuật toán chia convex hull thành các mảnh tam giác sao cho không có tam giác nào chồng lên nhau.</p>",
+         "buttons": ["<button class='btn'>vietnamese</button>", "<button class='btn'>programming</button>"],
+         "more": "<p class='detail__more'>matheatics</p>>"
       },
       {
          "heading": "<h1 class='topic__heading'>Chuyển Unicode thành UTF8 char</h1>",
-         "time": "<span class=''>April 13, 2021 · 3 min read</span>",
+         "time": "<div class='topic__time'>April 13, 2021 · 3 min read</div>",
          "avatar": "",
-         "title": "<div class=''>Doko</div>",
+         "title": "<div class='content__title'>Doko</div>",
          "position": "<div class=''>Adminnitrator</div>",
          "image": "<img src=\"https://doko.clip-sub.com/assets/images/unicode-logo-3625009c88f466a43729411fe732144f.png\"/>",
-         "content": "<p class=''>Trước tiên hãy xem bảng sau, bên trái là khoảng các kí tự unicode, bên phải là dạng nhị phân sau khi convert: U-00000000 – U-0000007F:    0xxxxxxx U-00000080 – U-000007FF:    110xxxxx 10xxxxxx U-00000800 – U-0000FFFF:    1110xxxx 10xxxxxx 10xxxxxx U-00010000 – U-001FFFFF:    11110xxx 10xxxxxx 10xxxxxx 10xxxxxx U-00200000 – U-03FFFFFF:    111110xx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx U-04000000 – U-7FFFFFFF:    1111110x 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx Và dĩ nhiên là tất cả tính toán đều phải đưa về dạng nhị phân. Các chữ cái x đều phải được điền bằng giá trị tương ứng.</p>",
-         "buttons": ["<button class=''>vietnamese</button>", "<button class=''>programming</button>", "<button class=''>unicode</button>"],
-         "more": "<p class=''>Read More</p>"
+         "content": "<p class='detail__content'>Trước tiên hãy xem bảng sau, bên trái là khoảng các kí tự unicode, bên phải là dạng nhị phân sau khi convert: U-00000000 – U-0000007F:    0xxxxxxx U-00000080 – U-000007FF:    110xxxxx 10xxxxxx U-00000800 – U-0000FFFF:    1110xxxx 10xxxxxx 10xxxxxx U-00010000 – U-001FFFFF:    11110xxx 10xxxxxx 10xxxxxx 10xxxxxx U-00200000 – U-03FFFFFF:    111110xx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx U-04000000 – U-7FFFFFFF:    1111110x 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx Và dĩ nhiên là tất cả tính toán đều phải đưa về dạng nhị phân. Các chữ cái x đều phải được điền bằng giá trị tương ứng.</p>",
+         "buttons": ["<button class='btn'>vietnamese</button>", "<button class='btn'>programming</button>", "<button class='btn'>unicode</button>"],
+         "more": "<p class='detail__more'>Read More</p>"
       },
       {
          "heading": "<h1 class='topic__heading'>Aizawa Hikaru Wallpaper Collection</h1>",
-         "time": "<span class=''>March 19, 2021 · One min read</span>",
+         "time": "<div class='topic__time'>March 19, 2021 · One min read</div>",
          "avatar": "<img src=\"https://doko.clip-sub.com/img/avatar_doraemon.jpg\" />",
-         "title": "<div class=''>Doko</div>",
+         "title": "<div class='content__title'>Doko</div>",
          "position": "<div class=''>Adminnitrator</div>",
          "image": "<img src=\"https://doko.clip-sub.com/assets/images/aizawa_hikaru_thumb-b08dff2b599e07151ca2970ce9e7931e.jpg\" />",
-         "content": "<p class=''>Took you long enough? J/K. For years I have been collecting wallpapers, not occasionally though. And Aizawa Hikaru collection is one of my favorites. Aizawa Hikaru is one of Microsoft's official mascots. She is the representative of (now-deprecated) Silverlight and Azure in Taiwan and Singapore. You can preview and download them here. I don't think I missed anything, but if I do, feel free to contact me.</p>",
-         "buttons": ["<button class=''>misc</button>", "<button class=''>english</button>", "<button class=''>picture</button>", "<button class=''>colletion</button>", "<button class=''>wallpaper</button>"],
-         "more": "<p class=''>Read More</p>"
+         "content": "<p class='detail__content'>Took you long enough? J/K. For years I have been collecting wallpapers, not occasionally though. And Aizawa Hikaru collection is one of my favorites. Aizawa Hikaru is one of Microsoft's official mascots. She is the representative of (now-deprecated) Silverlight and Azure in Taiwan and Singapore. You can preview and download them here. I don't think I missed anything, but if I do, feel free to contact me.</p>",
+         "buttons": ["<button class='btn'>misc</button>", "<button class='btn'>english</button>", "<button class='btn'>picture</button>", "<button class='btn'>colletion</button>", "<button class='btn'>wallpaper</button>"],
+         "more": "<p class='detail__more'>Read More</p>"
       },
       {
          "heading": "<h1 class='topic__heading'>Con ếch có thể nói được rồi</h1>",
-         "time": "<span class=''>March 9, 2021 · 4 min read</span>",
+         "time": "<div class='topic__time'>March 9, 2021 · 4 min read</div>",
          "avatar": "<img src=\"https://doko.clip-sub.com/img/avatar_doraemon.jpg\" />",
-         "title": "<div class=''>Doko</div>",
+         "title": "<div class='content__title'>Doko</div>",
          "position": "<div class=''>Adminnitrator</div>",
          "image": "",
-         "content": "<p class=''>Ngày xửa ngày xưa, sâu thẳm trong một khu rừng già. Có một con Ếch to trong một cái ao nhỏ. Ếch này là ếch cái. Mỗi ngày của nó đều là một ngày yên bình, chỉ có ăn, bơi và ngủ. Từ sáng đến tối, nó đều làm điều mà các con ếch khác đều làm, chỉ có điều là nó chơi nhiều hơn, ăn nhiều hơn, nhảy xa hơn. Nó thông minh hơn và kêu to hơn nữa. Mọi người trong khu rừng đều có thể nghe thấy tiếng ộp oạp của nó, và điều đó khiến họ vui. Do khu rừng rất dễ đi lạc, nên nhờ tiếng của con ếch mà họ có thể tìm được đường quay lại cái ao đó khá dễ dàng. Cũng có thể điều đó sẽ không còn đúng nữa nếu con ếch tiếp tục oàm oạp vào ban đêm, nhưng nó cũng đã quá lười và mệt mỏi khi màn đêm buông xuống mất rồi.</p>",
-         "buttons": ["<button class=''>story</button>", "<button class=''>vietnamese</button>", "<button class=''>tell-my-why</button>"],
-         "more": "<p class=''>Read More</p>"
+         "content": "<p class='detail__content'>Ngày xửa ngày xưa, sâu thẳm trong một khu rừng già. Có một con Ếch to trong một cái ao nhỏ. Ếch này là ếch cái. Mỗi ngày của nó đều là một ngày yên bình, chỉ có ăn, bơi và ngủ. Từ sáng đến tối, nó đều làm điều mà các con ếch khác đều làm, chỉ có điều là nó chơi nhiều hơn, ăn nhiều hơn, nhảy xa hơn. Nó thông minh hơn và kêu to hơn nữa. Mọi người trong khu rừng đều có thể nghe thấy tiếng ộp oạp của nó, và điều đó khiến họ vui. Do khu rừng rất dễ đi lạc, nên nhờ tiếng của con ếch mà họ có thể tìm được đường quay lại cái ao đó khá dễ dàng. Cũng có thể điều đó sẽ không còn đúng nữa nếu con ếch tiếp tục oàm oạp vào ban đêm, nhưng nó cũng đã quá lười và mệt mỏi khi màn đêm buông xuống mất rồi.</p>",
+         "buttons": ["<button class='btn'>story</button>", "<button class='btn'>vietnamese</button>", "<button class='btn'>tell-my-why</button>"],
+         "more": "<p class='detail__more'>Read More</p>"
       }
    ],
    "lists": [{

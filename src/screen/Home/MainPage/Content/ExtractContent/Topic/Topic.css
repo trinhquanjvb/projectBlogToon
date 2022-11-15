@@ -1,3 +1,42 @@
+:root {
+   --primary-color: #1bcbe2;
+}
+
 .topic__heading {
-   font-size: 28px;
+   font-size: 50px;
+   color: var(--primary-color);
+   font-weight: bolder;
+}
+
+.topic__time {
+   margin-top: 28px;
+   margin-bottom: 20px;
+}
+
+.topic__wrap {
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.topic__wrap--img {
+   width: 50px;
+   height: 50px;
+   border-radius: 999px;
+   overflow: hidden;
+   margin-right: 16px;
+}
+
+.topic__wrap--img img {
+   width: 100%;
+}
+
+.topic__wrap--content {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.content__title {
+   color: var(--primary-color);
+   font-weight: bolder;
 }

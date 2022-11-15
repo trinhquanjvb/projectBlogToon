@@ -2,7 +2,6 @@
    display: flex;
    justify-content: space-between;
    height: var(--height-navigate);
-   background-color: #fff;
    padding: 9px 18px;
    position: fixed;
    top: 0;
@@ -10,4 +9,5 @@
    right: 0;
    box-shadow: 0px 6px 28px -3px rgb(0 0 0 / 10%);
    z-index: 10;
+   background: inherit;
 }

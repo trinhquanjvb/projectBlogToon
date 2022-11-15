@@ -1,3 +1,9 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
 html,
 body,
 div,
@@ -305,6 +311,8 @@ textarea {
 button,
 input {
    line-height: normal;
+   border: none;
+   outline: none;
 }
 
 /**
@@ -470,5 +478,5 @@ textarea {
 // customize
 :root {
    --height-navigate: 64px;
-   --width-sidebar: 27vw;
+   --width-sidebar: 28vw;
 }
