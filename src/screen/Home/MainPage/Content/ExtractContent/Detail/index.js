@@ -11,11 +11,11 @@ function Detail(props) {
          <div class='detail__wrap'>
             <div class='detail__wrapper'>
                <span class='detail__wrap--tag'>Tags:</span>
-               {/* <div
+               <div
                   dangerouslySetInnerHTML={{
                      __html: props.buttons.map((button, i) => button),
                   }}
-               /> */}
+               />
             </div>
             <div
                class='detail__wrap--more'

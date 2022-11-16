@@ -1,12 +1,7 @@
 import './Search.scss'
+import Search from './Search'
 
-import { useSelector } from 'react-redux'
-
-function RenderSearch({ onClick }) {
-   const isToggleTheme = useSelector(
-      (store) => store.reducersHome.isToggleTheme
-   )
-
+function RenderSearch({ onClick, isToggleTheme }) {
    // render
    return (
       <div className='search'>
@@ -32,14 +27,8 @@ function RenderSearch({ onClick }) {
                )}
             </div>
          </div>
-         <div className='search__input'>
-            <i class='bx bx-search-alt-2 icon'></i>
-            <input className='search__input--item' placeholder='Search' />
-            <div className='search__input--texts'>
-               <span>ctrl</span>
-               <span>K</span>
-            </div>
-         </div>
+
+         <Search />
       </div>
    )
 }

@@ -8,13 +8,16 @@ function Search() {
    const isToggleTheme = useSelector(
       (store) => store.reducersHome.isToggleTheme
    )
+
    const handleToggleTheme = () => {
       const action = toggleTheme(!isToggleTheme)
       dispatch(action)
    }
 
    // render
-   return <RenderSearch onClick={handleToggleTheme} />
+   return (
+      <RenderSearch onClick={handleToggleTheme} isToggleTheme={isToggleTheme} />
+   )
 }
 
 export default Search

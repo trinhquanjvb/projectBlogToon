@@ -3,7 +3,6 @@ import Topic from './Topic'
 import './ExtractContent.scss'
 
 function ExtractContent(props) {
-   console.log(props.data[0])
    return (
       <div className='extractContent'>
          <Topic
