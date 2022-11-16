@@ -1,4 +1,10 @@
-.Home {
+.home {
    background-color: #fff;
    color: #000;
+   overflow: auto;
+}
+
+.home.dark {
+   background-color: #1b1b1d;
+   color: white;
 }
