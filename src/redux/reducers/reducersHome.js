@@ -1,8 +1,9 @@
-import { TOGGLE__THEME, REQUEST__ERROR, REQUEST__SUCCESS } from '../constants'
+import { TOGGLE__THEME, REQUEST__SUCCESS } from '../constants'
 
 const innitState = {
    isToggleTheme: false,
    responseContent: [],
+   isLoading: false,
 }
 
 const reducersHome = (state = innitState, action) => {

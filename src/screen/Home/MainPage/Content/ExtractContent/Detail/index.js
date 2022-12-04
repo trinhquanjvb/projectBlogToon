@@ -8,9 +8,9 @@ function Detail(props) {
             dangerouslySetInnerHTML={{ __html: props.image }}
          />
          <div dangerouslySetInnerHTML={{ __html: props.content }} />
-         <div class='detail__wrap'>
-            <div class='detail__wrapper'>
-               <span class='detail__wrap--tag'>Tags:</span>
+         <div className='detail__wrap'>
+            <div className='detail__wrapper'>
+               <span className='detail__wrap--tag'>Tags:</span>
                <div
                   dangerouslySetInnerHTML={{
                      __html: props.buttons.map((button, i) => button),
@@ -18,7 +18,7 @@ function Detail(props) {
                />
             </div>
             <div
-               class='detail__wrap--more'
+               className='detail__wrap--more'
                dangerouslySetInnerHTML={{ __html: props.more }}
             />
          </div>

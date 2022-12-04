@@ -1,4 +1,5 @@
 {
+
    "posts": [{
          "heading": "<h1 class='topic__heading'>Synchron combo - Yu-Gi-Oh Master Duel</h1>",
          "time": "<div class='topic__time'>June 26, 2022 · 5 min read</div>",
@@ -112,18 +113,25 @@
    ],
    "lists": [{
       "id": "1",
-      "list": "Hướng dẫn rip đĩa CD sang FLAC bằng Exact Audio Copy"
+      "list": "Hướng dẫn rip đĩa CD sang FLAC bằng Exact Audio Copy",
+      "link": "/post1"
    }, {
       "id": "2",
-      "list": "Synchron combo - Yu-Gi-Oh Master Duel"
+      "list": "Synchron combo - Yu-Gi-Oh Master Duel",
+      "link": "/post2"
+
    }, {
       "id": "3",
-      "list": "Thể ていない"
+      "list": "Thể ていない",
+      "link": "/post3"
    }, {
       "id": "4",
-      "list": "Solidity self-notes"
+      "list": "Solidity self-notes",
+      "link": "/post4"
    }, {
       "id": "5",
-      "list": "Rusty Diary (03)"
+      "list": "Rusty Diary (03)",
+      "link": "/post5"
+
    }]
 }

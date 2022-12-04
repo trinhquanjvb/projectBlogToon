@@ -1,0 +1,15 @@
+.footer {
+   background-color: #9999;
+   height: calc(100vh - var(--height-sidebar) - var(--height-navigate));
+   width: 100%;
+}
+
+.footer__heading {
+   font-weight: bolder;
+}
+
+.footer__item {
+   ~.footer__item {
+      margin-top: 12px;
+   }
+}

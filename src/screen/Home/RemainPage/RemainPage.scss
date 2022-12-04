@@ -1,0 +1,10 @@
+.remainPage {
+   position: relative;
+   bottom: 0;
+   top: var(--height-navigate);
+   left: var(--width-sidebar);
+   right: 0;
+   width: calc(73vw - 17px);
+   // padding-top: 40px;
+   color: black;
+}

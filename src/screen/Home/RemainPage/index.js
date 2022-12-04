@@ -1,5 +1,7 @@
+import './RemainPage.scss'
+
 function RemainPage() {
-   return <h1>RemainPage</h1>
+   return <h1 className='remainPage'>Alo</h1>
 }
 
 export default RemainPage

@@ -1,12 +1,11 @@
 import './MainPage.scss'
-import Sidebar from '../../../components/Sidebar'
-import Content from './Content'
+import { Outlet } from 'react-router-dom'
+// import Topic from '../MainPage/Content/ExtractContent/Topic'
 
 function MainPage() {
    return (
       <div className='mainPage'>
-         <Sidebar />
-         <Content />
+         <Outlet />
       </div>
    )
 }

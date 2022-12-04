@@ -1,5 +1,5 @@
 import './Search.scss'
-import Search from './Search'
+import Input from './Input'
 
 function RenderSearch({ onClick, isToggleTheme }) {
    // render
@@ -8,19 +8,19 @@ function RenderSearch({ onClick, isToggleTheme }) {
          <div className='search__text'>
             <div className='search__text--item'>
                <span>Reader</span>
-               <i class='bx bxs-right-top-arrow-circle icon'></i>
+               <i className='bx bxs-right-top-arrow-circle icon'></i>
             </div>
             <div className='search__text--item'>
                <span>Portfolio</span>
                {isToggleTheme ? (
                   <i
-                     class='bx bx-moon icon'
+                     className='bx bx-moon icon'
                      onClick={onClick}
                      title='Switch between dark and light mode (currently light mode)'
                   ></i>
                ) : (
                   <i
-                     class='bx bx-sun icon'
+                     className='bx bx-sun icon'
                      onClick={onClick}
                      title='Switch between dark and light mode (currently light mode)'
                   ></i>
@@ -28,7 +28,7 @@ function RenderSearch({ onClick, isToggleTheme }) {
             </div>
          </div>
 
-         <Search />
+         <Input />
       </div>
    )
 }

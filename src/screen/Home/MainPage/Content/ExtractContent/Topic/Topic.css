@@ -8,6 +8,10 @@
    font-weight: bolder;
 }
 
+.topic__heading.black__color {
+   color: black;
+}
+
 .topic__heading:hover,
 .content__title:hover {
    cursor: pointer;

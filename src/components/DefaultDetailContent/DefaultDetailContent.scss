@@ -1,0 +1,18 @@
+.post1 {
+   position: relative;
+   bottom: 0;
+   top: 0;
+   right: 0;
+   padding-top: 40px;
+   display: flex;
+   padding-left: 24px;
+   margin-bottom: var(--height-navigate);
+}
+
+.post1__content {
+   width: 67%;
+}
+
+.post1__sideBar {
+   flex: 1;
+}

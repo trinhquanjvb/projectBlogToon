@@ -2,6 +2,8 @@
    position: fixed;
    left: 0;
    top: var(--height-navigate);
-   bottom: 0;
-   right: calc(100vw - var(--width-sidebar));
+   // bottom: 0;
+   // right: calc(100vw - var(--width-sidebar));
+   width: var(--width-sidebar);
+   height: var(--height-sidebar);
 }
